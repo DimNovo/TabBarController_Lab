@@ -1,24 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AgM-ct-0o5">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TabBarController_Lab" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IL_main" translatesAutoresizingMaskIntoConstraints="NO" id="P3G-d6-o4d">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="P3G-d6-o4d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V8u-sl-Jd1"/>
+                            <constraint firstItem="P3G-d6-o4d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xwN-Up-V0Q"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Welcome" image="IL" id="hHf-U1-you"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-105" y="-1068"/>
+        </scene>
+        <!--Eilat-->
+        <scene sceneID="wQu-pS-cdz">
+            <objects>
+                <viewController id="gKE-Nj-vmE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oim-Sb-WWD">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IL_Eilat" translatesAutoresizingMaskIntoConstraints="NO" id="age-nM-yPH">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="age-nM-yPH" firstAttribute="centerY" secondItem="oim-Sb-WWD" secondAttribute="centerY" id="OH1-5k-4h0"/>
+                            <constraint firstItem="age-nM-yPH" firstAttribute="centerX" secondItem="oim-Sb-WWD" secondAttribute="centerX" id="fTE-ka-T5i"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Dzt-mL-bhD"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Eilat" image="IL" id="Yqe-0k-T9B"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Kf-Pz-rEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="774" y="1841"/>
+        </scene>
+        <!--Dead Sea-->
+        <scene sceneID="fJ2-F3-OhP">
+            <objects>
+                <viewController id="1xi-TB-91E" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rgO-P5-nbA">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IL_DeadSea" translatesAutoresizingMaskIntoConstraints="NO" id="HEN-XB-aLZ">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HEN-XB-aLZ" firstAttribute="centerX" secondItem="rgO-P5-nbA" secondAttribute="centerX" id="a0j-vf-p9r"/>
+                            <constraint firstItem="HEN-XB-aLZ" firstAttribute="centerY" secondItem="rgO-P5-nbA" secondAttribute="centerY" id="xWn-sd-Dey"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jRX-kF-Cgz"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Dead Sea" image="IL" id="PLC-SN-x5g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5N0-vF-1I6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-106" y="2295"/>
+        </scene>
+        <!--Jerusalem-->
+        <scene sceneID="BEK-pP-PIR">
+            <objects>
+                <viewController id="7hP-ac-Hcz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i2S-50-ZoF">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IL_Jerusalem" translatesAutoresizingMaskIntoConstraints="NO" id="xZE-BR-gL8">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xZE-BR-gL8" firstAttribute="centerX" secondItem="i2S-50-ZoF" secondAttribute="centerX" id="SUb-bh-er6"/>
+                            <constraint firstItem="xZE-BR-gL8" firstAttribute="centerY" secondItem="i2S-50-ZoF" secondAttribute="centerY" id="p2r-Um-MGc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Vg4-No-Myl"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Jerusalem" image="IL" id="h53-pq-eF8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W8T-sv-5Xc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="164" y="-244"/>
+        </scene>
+        <!--Tel Aviv-->
+        <scene sceneID="iRo-gK-e2r">
+            <objects>
+                <viewController id="GU8-uX-5lX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vMQ-T7-mfv">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IL_TelAviv" translatesAutoresizingMaskIntoConstraints="NO" id="iBE-he-Fp8">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iBE-he-Fp8" firstAttribute="centerX" secondItem="vMQ-T7-mfv" secondAttribute="centerX" id="YVW-CN-YKD"/>
+                            <constraint firstItem="iBE-he-Fp8" firstAttribute="centerY" secondItem="vMQ-T7-mfv" secondAttribute="centerY" id="fH7-Nw-7kc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NvV-ON-O0L"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tel Aviv" image="IL" id="Z7X-e9-iI2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uBd-5W-2PI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="587" y="796"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="DGS-fO-VVP">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="AgM-ct-0o5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleAspectFill" semanticContentAttribute="forceLeftToRight" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="Zde-pI-3gf">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="oo9-3Q-zLF"/>
+                        <segue destination="7hP-ac-Hcz" kind="relationship" relationship="viewControllers" id="lm4-TT-Qfv"/>
+                        <segue destination="GU8-uX-5lX" kind="relationship" relationship="viewControllers" id="ooA-Yb-wSP"/>
+                        <segue destination="gKE-Nj-vmE" kind="relationship" relationship="viewControllers" id="mC8-Ba-GIv"/>
+                        <segue destination="1xi-TB-91E" kind="relationship" relationship="viewControllers" id="Tpr-hr-2qF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rZn-ij-g1z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1149" y="796"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IL" width="48" height="48"/>
+        <image name="IL_DeadSea" width="667" height="375"/>
+        <image name="IL_Eilat" width="667" height="375"/>
+        <image name="IL_Jerusalem" width="667" height="375"/>
+        <image name="IL_TelAviv" width="667" height="375"/>
+        <image name="IL_main" width="667" height="375"/>
+    </resources>
 </document>
