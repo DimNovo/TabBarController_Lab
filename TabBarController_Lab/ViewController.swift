@@ -15,6 +15,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+//  Все сделано в storyBoard с бейджиками заморачиваться не стал - поскольку не понимаю как работают will appear, disappear ... и тому подобное...
 }
 

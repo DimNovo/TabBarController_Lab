@@ -140,9 +140,10 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="AgM-ct-0o5" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleAspectFill" semanticContentAttribute="forceLeftToRight" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="Zde-pI-3gf">
+                    <tabBar key="tabBar" contentMode="scaleAspectFill" semanticContentAttribute="playback" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="Zde-pI-3gf">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
                     </tabBar>
                     <connections>
